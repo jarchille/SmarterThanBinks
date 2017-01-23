@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19499D4847007544FA95EA8F /* Pods_SmarterThanBinks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43B4345DFD13BA87424F91F /* Pods_SmarterThanBinks.framework */; };
+		7642863E1E287FCB004C7529 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7642863D1E287FCB004C7529 /* GoogleService-Info.plist */; };
+		764286491E29E5E6004C7529 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764286481E29E5E6004C7529 /* Trivia.swift */; };
+		764286551E2AFBCA004C7529 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764286541E2AFBCA004C7529 /* LoginViewController.swift */; };
+		7642865D1E2CF87F004C7529 /* playerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7642865C1E2CF87F004C7529 /* playerTableViewCell.swift */; };
+		764286651E2D40A5004C7529 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764286641E2D40A5004C7529 /* GameViewController.swift */; };
+		764286751E2D9CCF004C7529 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 764286741E2D9CCF004C7529 /* icon.png */; };
+		7642867D1E2DC715004C7529 /* LeaderBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7642867C1E2DC715004C7529 /* LeaderBoardVC.swift */; };
+		76ACF3601E256C3000281BCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ACF35F1E256C3000281BCB /* AppDelegate.swift */; };
+		76ACF3621E256C3000281BCB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ACF3611E256C3000281BCB /* HomeViewController.swift */; };
+		76ACF3651E256C3000281BCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76ACF3631E256C3000281BCB /* Main.storyboard */; };
+		76ACF3671E256C3000281BCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76ACF3661E256C3000281BCB /* Assets.xcassets */; };
+		76ACF36A1E256C3000281BCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76ACF3681E256C3000281BCB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7642863D1E287FCB004C7529 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		764286481E29E5E6004C7529 /* Trivia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
+		764286541E2AFBCA004C7529 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7642865C1E2CF87F004C7529 /* playerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playerTableViewCell.swift; sourceTree = "<group>"; };
+		764286641E2D40A5004C7529 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		764286741E2D9CCF004C7529 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		7642867C1E2DC715004C7529 /* LeaderBoardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderBoardVC.swift; sourceTree = "<group>"; };
+		76ACF35C1E256C3000281BCB /* SmarterThanBinks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmarterThanBinks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76ACF35F1E256C3000281BCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76ACF3611E256C3000281BCB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		76ACF3641E256C3000281BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76ACF3661E256C3000281BCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76ACF3691E256C3000281BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76ACF36B1E256C3000281BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43B4345DFD13BA87424F91F /* Pods_SmarterThanBinks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmarterThanBinks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70670306A117220D43AB8DE /* Pods-SmarterThanBinks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmarterThanBinks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmarterThanBinks/Pods-SmarterThanBinks.debug.xcconfig"; sourceTree = "<group>"; };
+		EF019E09DCCCB676E8275085 /* Pods-SmarterThanBinks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmarterThanBinks.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmarterThanBinks/Pods-SmarterThanBinks.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76ACF3591E256C3000281BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19499D4847007544FA95EA8F /* Pods_SmarterThanBinks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C3D7102204A793428E50B94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D70670306A117220D43AB8DE /* Pods-SmarterThanBinks.debug.xcconfig */,
+				EF019E09DCCCB676E8275085 /* Pods-SmarterThanBinks.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		76ACF3531E256C3000281BCB = {
+			isa = PBXGroup;
+			children = (
+				76ACF35E1E256C3000281BCB /* SmarterThanBinks */,
+				76ACF35D1E256C3000281BCB /* Products */,
+				5C3D7102204A793428E50B94 /* Pods */,
+				82FC5CAC8B828C7AF25DCFA7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76ACF35D1E256C3000281BCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76ACF35C1E256C3000281BCB /* SmarterThanBinks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76ACF35E1E256C3000281BCB /* SmarterThanBinks */ = {
+			isa = PBXGroup;
+			children = (
+				76ACF35F1E256C3000281BCB /* AppDelegate.swift */,
+				76ACF3611E256C3000281BCB /* HomeViewController.swift */,
+				764286541E2AFBCA004C7529 /* LoginViewController.swift */,
+				76ACF3631E256C3000281BCB /* Main.storyboard */,
+				7642867C1E2DC715004C7529 /* LeaderBoardVC.swift */,
+				764286741E2D9CCF004C7529 /* icon.png */,
+				7642865C1E2CF87F004C7529 /* playerTableViewCell.swift */,
+				76ACF3661E256C3000281BCB /* Assets.xcassets */,
+				764286481E29E5E6004C7529 /* Trivia.swift */,
+				764286641E2D40A5004C7529 /* GameViewController.swift */,
+				76ACF3681E256C3000281BCB /* LaunchScreen.storyboard */,
+				76ACF36B1E256C3000281BCB /* Info.plist */,
+				7642863D1E287FCB004C7529 /* GoogleService-Info.plist */,
+			);
+			path = SmarterThanBinks;
+			sourceTree = "<group>";
+		};
+		82FC5CAC8B828C7AF25DCFA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B43B4345DFD13BA87424F91F /* Pods_SmarterThanBinks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76ACF35B1E256C3000281BCB /* SmarterThanBinks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76ACF36E1E256C3000281BCB /* Build configuration list for PBXNativeTarget "SmarterThanBinks" */;
+			buildPhases = (
+				41A09E969D705C70027308AE /* [CP] Check Pods Manifest.lock */,
+				76ACF3581E256C3000281BCB /* Sources */,
+				76ACF3591E256C3000281BCB /* Frameworks */,
+				76ACF35A1E256C3000281BCB /* Resources */,
+				9975B2CB19E57B68279DDB82 /* [CP] Embed Pods Frameworks */,
+				A98B1E8B1EDC0976744AEEEE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmarterThanBinks;
+			productName = SmarterThanBinks;
+			productReference = 76ACF35C1E256C3000281BCB /* SmarterThanBinks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76ACF3541E256C3000281BCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "The Iron Yard";
+				TargetAttributes = {
+					76ACF35B1E256C3000281BCB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 76ACF3571E256C3000281BCB /* Build configuration list for PBXProject "SmarterThanBinks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76ACF3531E256C3000281BCB;
+			productRefGroup = 76ACF35D1E256C3000281BCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76ACF35B1E256C3000281BCB /* SmarterThanBinks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76ACF35A1E256C3000281BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76ACF36A1E256C3000281BCB /* LaunchScreen.storyboard in Resources */,
+				764286751E2D9CCF004C7529 /* icon.png in Resources */,
+				7642863E1E287FCB004C7529 /* GoogleService-Info.plist in Resources */,
+				76ACF3671E256C3000281BCB /* Assets.xcassets in Resources */,
+				76ACF3651E256C3000281BCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41A09E969D705C70027308AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9975B2CB19E57B68279DDB82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmarterThanBinks/Pods-SmarterThanBinks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A98B1E8B1EDC0976744AEEEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmarterThanBinks/Pods-SmarterThanBinks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76ACF3581E256C3000281BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764286551E2AFBCA004C7529 /* LoginViewController.swift in Sources */,
+				7642867D1E2DC715004C7529 /* LeaderBoardVC.swift in Sources */,
+				76ACF3621E256C3000281BCB /* HomeViewController.swift in Sources */,
+				764286491E29E5E6004C7529 /* Trivia.swift in Sources */,
+				7642865D1E2CF87F004C7529 /* playerTableViewCell.swift in Sources */,
+				764286651E2D40A5004C7529 /* GameViewController.swift in Sources */,
+				76ACF3601E256C3000281BCB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76ACF3631E256C3000281BCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76ACF3641E256C3000281BCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76ACF3681E256C3000281BCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76ACF3691E256C3000281BCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76ACF36C1E256C3000281BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76ACF36D1E256C3000281BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76ACF36F1E256C3000281BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D70670306A117220D43AB8DE /* Pods-SmarterThanBinks.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmarterThanBinks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiy.quizgame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		76ACF3701E256C3000281BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF019E09DCCCB676E8275085 /* Pods-SmarterThanBinks.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmarterThanBinks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiy.quizgame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76ACF3571E256C3000281BCB /* Build configuration list for PBXProject "SmarterThanBinks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76ACF36C1E256C3000281BCB /* Debug */,
+				76ACF36D1E256C3000281BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76ACF36E1E256C3000281BCB /* Build configuration list for PBXNativeTarget "SmarterThanBinks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76ACF36F1E256C3000281BCB /* Debug */,
+				76ACF3701E256C3000281BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76ACF3541E256C3000281BCB /* Project object */;
+}
